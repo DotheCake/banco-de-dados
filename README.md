@@ -16,3 +16,8 @@
 ## SGBT
     Sistema gerenciador de banco de dados
 
+# Trabalhando com MySQL
+
+## Conectando
+mysql -h localhost -u root
+-h é o host a ser digitado, -u é o usuario a ser digitado, e -p é a senha a ser digitada apos o enter
