@@ -57,6 +57,9 @@ A Data Control Language é a sub-língua responsável pelas tarefas administrati
 ## Pesquisando a estrutura da tabela
 `desc .....;`
 
+## Limpar tela
+`\! cls;`
+
 ## Inserindo dados no campo da Tabela
       insert into nome_table(campo1, campo2, campo3, etc..) values(valor_campo1, valor_campo2, valor_campo3, );
 
@@ -67,6 +70,8 @@ A Data Control Language é a sub-língua responsável pelas tarefas administrati
     int - numeros inteiros
     varchar - caracteres no geral com limitação pelo (***)
 
+## deletar dados de todos com id maior que 2
+    delete from nome_tabela where id > 2;
 
 -------------------------------------
 1. O que é um Sistema Gerenciador de Banco de Dados?
