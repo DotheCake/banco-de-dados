@@ -60,6 +60,9 @@ A Data Control Language é a sub-língua responsável pelas tarefas administrati
 ## Limpar tela
 `\! cls;`
 
+## filtro puxar lista por letra
+    select * from clientes where nome like 'p%'; (para letra p)
+    
 ## Inserindo dados no campo da Tabela
       insert into nome_table(campo1, campo2, campo3, etc..) values(valor_campo1, valor_campo2, valor_campo3, );
 
